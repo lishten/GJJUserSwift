@@ -7,6 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14D5478E7568A48BBD867588 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8F7E66900E0846F0EBB230 /* libPods.a */; };
+		BB1EC89F1BF08761004B83AD /* GConPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1EC89D1BF08761004B83AD /* GConPlanCell.swift */; };
+		BB1EC8A01BF08761004B83AD /* GConPlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB1EC89E1BF08761004B83AD /* GConPlanCell.xib */; };
+		BB1EC8A21BF08E6B004B83AD /* GConPlanHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1EC8A11BF08E6B004B83AD /* GConPlanHeaderView.swift */; };
+		BB25576E1BF04B4600F8D978 /* GUserConPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB25576D1BF04B4600F8D978 /* GUserConPlanView.swift */; };
+		BB2557711BF06E6500F8D978 /* GUserConstructController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB25576F1BF06E6500F8D978 /* GUserConstructController.swift */; };
+		BB2557721BF06E6500F8D978 /* GUserConstructController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2557701BF06E6500F8D978 /* GUserConstructController.xib */; };
+		BB2CDA7E1BF1CA17007CFFDC /* GUserConSiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CDA7D1BF1CA17007CFFDC /* GUserConSiteView.swift */; };
+		BB2CDA811BF1CD27007CFFDC /* GConSiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CDA7F1BF1CD27007CFFDC /* GConSiteCell.swift */; };
+		BB2CDA821BF1CD27007CFFDC /* GConSiteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2CDA801BF1CD27007CFFDC /* GConSiteCell.xib */; };
+		BB2CDA851BF1DA43007CFFDC /* GConSiteSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CDA831BF1DA43007CFFDC /* GConSiteSectionHeader.swift */; };
+		BB2CDA861BF1DA43007CFFDC /* GConSiteSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2CDA841BF1DA43007CFFDC /* GConSiteSectionHeader.xib */; };
+		BB4C4F201C0D97B90000E55B /* UIImage+gjjImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4C4F1F1C0D97B90000E55B /* UIImage+gjjImage.swift */; };
+		BB4C4F231C0ED3810000E55B /* GUserRefreshNorMalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4C4F221C0ED3810000E55B /* GUserRefreshNorMalHeader.swift */; };
+		BB7D0E741C1916AC00769CE7 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7D0E701C1916AC00769CE7 /* MBProgressHUD+Add.m */; };
+		BB7D0E751C1916AC00769CE7 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB7D0E711C1916AC00769CE7 /* MBProgressHUD.bundle */; };
+		BB7D0E761C1916AC00769CE7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7D0E731C1916AC00769CE7 /* MBProgressHUD.m */; };
+		BB7D0E791C19192200769CE7 /* GAlertMessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D0E781C19192200769CE7 /* GAlertMessageManager.swift */; };
+		BB7D29CD1BEC79B2009EC238 /* GUserSystemSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D29CC1BEC79B2009EC238 /* GUserSystemSettingController.swift */; };
+		BB7D29D01BEC810B009EC238 /* GUserSystemLogOutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D29CE1BEC810B009EC238 /* GUserSystemLogOutCell.swift */; };
+		BB7D29D11BEC810B009EC238 /* GUserSystemLogOutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7D29CF1BEC810B009EC238 /* GUserSystemLogOutCell.xib */; };
+		BB7D29D31BEC8997009EC238 /* GUserConstructionFeedbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D29D21BEC8997009EC238 /* GUserConstructionFeedbackController.swift */; };
+		BB7D29D61BEC89BB009EC238 /* GUserConstructFeedBackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D29D41BEC89BB009EC238 /* GUserConstructFeedBackCell.swift */; };
+		BB7D29D71BEC89BB009EC238 /* GUserConstructFeedBackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7D29D51BEC89BB009EC238 /* GUserConstructFeedBackCell.xib */; };
+		BB7D29D91BECA467009EC238 /* GUserSupportController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D29D81BECA467009EC238 /* GUserSupportController.swift */; };
+		BB7D29DB1BECA611009EC238 /* GUserSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D29DA1BECA611009EC238 /* GUserSupportView.swift */; };
+		BB7D29DD1BECA61F009EC238 /* GUserSupportView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7D29DC1BECA61F009EC238 /* GUserSupportView.xib */; };
+		BB7F01741C16B26A005D165D /* GUserProgressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7F01721C16B26A005D165D /* GUserProgressCell.swift */; };
+		BB7F01751C16B26A005D165D /* GUserProgressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7F01731C16B26A005D165D /* GUserProgressCell.xib */; };
+		BB811EAD1C0BFA5D003E2C05 /* GUserGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB811EAC1C0BFA5D003E2C05 /* GUserGuideController.swift */; };
+		BB83336F1BFD607800F4F52A /* GUserHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB83336E1BFD607800F4F52A /* GUserHomePageController.swift */; };
+		BB8333731BFD636700F4F52A /* UIView+BNLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8333721BFD636700F4F52A /* UIView+BNLayout.m */; };
+		BB8333761BFD676A00F4F52A /* GUHomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8333741BFD676A00F4F52A /* GUHomePageCell.swift */; };
+		BB8333771BFD676A00F4F52A /* GUHomePageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8333751BFD676A00F4F52A /* GUHomePageCell.xib */; };
+		BB8333791BFD7F6E00F4F52A /* GUHomePageFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8333781BFD7F6E00F4F52A /* GUHomePageFooter.swift */; };
+		BB83337B1BFD7FD800F4F52A /* GUHomePageFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB83337A1BFD7FD800F4F52A /* GUHomePageFooter.xib */; };
+		BB83337D1BFD97E300F4F52A /* GUHomePageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB83337C1BFD97E300F4F52A /* GUHomePageHeader.swift */; };
+		BB83337F1BFD97F300F4F52A /* GUHomePageHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB83337E1BFD97F300F4F52A /* GUHomePageHeader.xib */; };
+		BB8333811BFDA27000F4F52A /* GUHomePageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8333801BFDA27000F4F52A /* GUHomePageScrollView.swift */; };
+		BB83338B1BFDA7B500F4F52A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB8333881BFDA7B500F4F52A /* 1.jpg */; };
+		BB83338C1BFDA7B500F4F52A /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB8333891BFDA7B500F4F52A /* 2.jpg */; };
+		BB83338D1BFDA7B500F4F52A /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB83338A1BFDA7B500F4F52A /* 3.jpg */; };
+		BB83338F1BFDB52300F4F52A /* home_img_testbanner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83338E1BFDB52300F4F52A /* home_img_testbanner@2x.png */; };
+		BB9796081C1538FA0025D0A3 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9796071C1538FA0025D0A3 /* CircleProgressView.swift */; };
+		BB97960A1C153A200025D0A3 /* GUserConProgerssView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9796091C153A200025D0A3 /* GUserConProgerssView.swift */; };
+		BB97960C1C156A590025D0A3 /* GUserProgressHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB97960B1C156A590025D0A3 /* GUserProgressHeader.swift */; };
+		BB97960E1C156FB10025D0A3 /* GUserProgressHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB97960D1C156FB10025D0A3 /* GUserProgressHeader.xib */; };
+		BB9938741C059C68009050FD /* GUserLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9938721C059C68009050FD /* GUserLoginController.swift */; };
+		BB9938751C059C68009050FD /* GUserLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB9938731C059C68009050FD /* GUserLoginController.xib */; };
+		BB9EDDF31C1FAC5D0089E740 /* GErrorCodeDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EDDF21C1FAC5C0089E740 /* GErrorCodeDefine.swift */; };
+		BB9EDDF51C1FB2A70089E740 /* GNetWorkEngineDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EDDF41C1FB2A70089E740 /* GNetWorkEngineDefine.swift */; };
+		BB9EDDF71C1FC3480089E740 /* GNetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EDDF61C1FC3480089E740 /* GNetworkEngine.swift */; };
 		BBC3C9AF1BEB40750024CCC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC3C9AE1BEB40750024CCC0 /* AppDelegate.swift */; };
 		BBC3C9B11BEB40750024CCC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC3C9B01BEB40750024CCC0 /* ViewController.swift */; };
 		BBC3C9B41BEB40750024CCC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC3C9B21BEB40750024CCC0 /* Main.storyboard */; };
@@ -14,6 +66,25 @@
 		BBC3C9B91BEB40750024CCC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC3C9B71BEB40750024CCC0 /* LaunchScreen.storyboard */; };
 		BBC3C9C41BEB40760024CCC0 /* GJJUserSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC3C9C31BEB40760024CCC0 /* GJJUserSwiftTests.swift */; };
 		BBC3C9CF1BEB40760024CCC0 /* GJJUserSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC3C9CE1BEB40760024CCC0 /* GJJUserSwiftUITests.swift */; };
+		BBC3C9E71BEB57940024CCC0 /* GUserCenterControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC3C9E41BEB57940024CCC0 /* GUserCenterControllerViewController.swift */; };
+		BBC3C9EA1BEB57B30024CCC0 /* GUserCenterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC3C9E81BEB57B30024CCC0 /* GUserCenterCell.swift */; };
+		BBC3C9EB1BEB57B30024CCC0 /* GUserCenterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC3C9E91BEB57B30024CCC0 /* GUserCenterCell.xib */; };
+		BBC3C9ED1BEB5BE30024CCC0 /* GUserCenterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC3C9EC1BEB5BE30024CCC0 /* GUserCenterHeaderView.swift */; };
+		BBC3C9EF1BEB5BF30024CCC0 /* GUserCenterHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC3C9EE1BEB5BF30024CCC0 /* GUserCenterHeaderView.xib */; };
+		BBC3C9F31BEB74120024CCC0 /* UIColor+gjjColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC3C9F21BEB74120024CCC0 /* UIColor+gjjColor.swift */; };
+		BBC3C9F51BEB7B460024CCC0 /* UIStyleDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC3C9F41BEB7B460024CCC0 /* UIStyleDefine.swift */; };
+		BBF468181BFEC7D8009A9735 /* GFeedNodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF468171BFEC7D8009A9735 /* GFeedNodeView.swift */; };
+		BBF4681C1BFEF2B0009A9735 /* GFeedNodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF4681B1BFEF2B0009A9735 /* GFeedNodeView.xib */; };
+		BBF4681E1BFF09F2009A9735 /* GFeedSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF4681D1BFF09F2009A9735 /* GFeedSectionHeader.swift */; };
+		BBF468201BFF0A0C009A9735 /* GFeedSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF4681F1BFF0A0C009A9735 /* GFeedSectionHeader.xib */; };
+		BBF4689F1BFF1D85009A9735 /* GFeedTypeOneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF4689D1BFF1D85009A9735 /* GFeedTypeOneCell.swift */; };
+		BBF468A01BFF1D85009A9735 /* GFeedTypeOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF4689E1BFF1D85009A9735 /* GFeedTypeOneCell.xib */; };
+		BBF8B7AC1C07FC14005ADD77 /* Appdelegate+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF8B7AB1C07FC14005ADD77 /* Appdelegate+Login.swift */; };
+		BBFBC2131BEB807400AEB7D4 /* GUserFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC2121BEB807400AEB7D4 /* GUserFeedController.swift */; };
+		BBFBC2161BEB80CF00AEB7D4 /* GUserBaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC2151BEB80CF00AEB7D4 /* GUserBaseTabbarController.swift */; };
+		BBFBC2181BEC468300AEB7D4 /* GUserBaseNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC2171BEC468300AEB7D4 /* GUserBaseNavController.swift */; };
+		BBFE99131BF9B229005D0F26 /* OCChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFE99121BF9B229005D0F26 /* OCChannel.m */; };
+		BBFE99151BF9BA15005D0F26 /* GUserFeedBackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE99141BF9BA15005D0F26 /* GUserFeedBackController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +104,76 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BBE29E971C0C58D80016D814 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4CC4A83D6B72AE1500C0316E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9C8F7E66900E0846F0EBB230 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1EC89D1BF08761004B83AD /* GConPlanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GConPlanCell.swift; sourceTree = "<group>"; };
+		BB1EC89E1BF08761004B83AD /* GConPlanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GConPlanCell.xib; sourceTree = "<group>"; };
+		BB1EC8A11BF08E6B004B83AD /* GConPlanHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GConPlanHeaderView.swift; sourceTree = "<group>"; };
+		BB25576D1BF04B4600F8D978 /* GUserConPlanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserConPlanView.swift; sourceTree = "<group>"; };
+		BB25576F1BF06E6500F8D978 /* GUserConstructController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserConstructController.swift; sourceTree = "<group>"; };
+		BB2557701BF06E6500F8D978 /* GUserConstructController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUserConstructController.xib; sourceTree = "<group>"; };
+		BB2CDA7D1BF1CA17007CFFDC /* GUserConSiteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserConSiteView.swift; sourceTree = "<group>"; };
+		BB2CDA7F1BF1CD27007CFFDC /* GConSiteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GConSiteCell.swift; sourceTree = "<group>"; };
+		BB2CDA801BF1CD27007CFFDC /* GConSiteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GConSiteCell.xib; sourceTree = "<group>"; };
+		BB2CDA831BF1DA43007CFFDC /* GConSiteSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GConSiteSectionHeader.swift; sourceTree = "<group>"; };
+		BB2CDA841BF1DA43007CFFDC /* GConSiteSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GConSiteSectionHeader.xib; sourceTree = "<group>"; };
+		BB4C4F1F1C0D97B90000E55B /* UIImage+gjjImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+gjjImage.swift"; sourceTree = "<group>"; };
+		BB4C4F221C0ED3810000E55B /* GUserRefreshNorMalHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserRefreshNorMalHeader.swift; sourceTree = "<group>"; };
+		BB7D0E6F1C1916AC00769CE7 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		BB7D0E701C1916AC00769CE7 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		BB7D0E711C1916AC00769CE7 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		BB7D0E721C1916AC00769CE7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BB7D0E731C1916AC00769CE7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BB7D0E781C19192200769CE7 /* GAlertMessageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAlertMessageManager.swift; sourceTree = "<group>"; };
+		BB7D29CC1BEC79B2009EC238 /* GUserSystemSettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserSystemSettingController.swift; sourceTree = "<group>"; };
+		BB7D29CE1BEC810B009EC238 /* GUserSystemLogOutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserSystemLogOutCell.swift; sourceTree = "<group>"; };
+		BB7D29CF1BEC810B009EC238 /* GUserSystemLogOutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUserSystemLogOutCell.xib; sourceTree = "<group>"; };
+		BB7D29D21BEC8997009EC238 /* GUserConstructionFeedbackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserConstructionFeedbackController.swift; sourceTree = "<group>"; };
+		BB7D29D41BEC89BB009EC238 /* GUserConstructFeedBackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserConstructFeedBackCell.swift; sourceTree = "<group>"; };
+		BB7D29D51BEC89BB009EC238 /* GUserConstructFeedBackCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUserConstructFeedBackCell.xib; sourceTree = "<group>"; };
+		BB7D29D81BECA467009EC238 /* GUserSupportController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserSupportController.swift; sourceTree = "<group>"; };
+		BB7D29DA1BECA611009EC238 /* GUserSupportView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserSupportView.swift; sourceTree = "<group>"; };
+		BB7D29DC1BECA61F009EC238 /* GUserSupportView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUserSupportView.xib; sourceTree = "<group>"; };
+		BB7F01721C16B26A005D165D /* GUserProgressCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserProgressCell.swift; sourceTree = "<group>"; };
+		BB7F01731C16B26A005D165D /* GUserProgressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUserProgressCell.xib; sourceTree = "<group>"; };
+		BB811EAC1C0BFA5D003E2C05 /* GUserGuideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserGuideController.swift; sourceTree = "<group>"; };
+		BB83336E1BFD607800F4F52A /* GUserHomePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserHomePageController.swift; sourceTree = "<group>"; };
+		BB8333711BFD636700F4F52A /* UIView+BNLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BNLayout.h"; sourceTree = "<group>"; };
+		BB8333721BFD636700F4F52A /* UIView+BNLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BNLayout.m"; sourceTree = "<group>"; };
+		BB8333741BFD676A00F4F52A /* GUHomePageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUHomePageCell.swift; sourceTree = "<group>"; };
+		BB8333751BFD676A00F4F52A /* GUHomePageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUHomePageCell.xib; sourceTree = "<group>"; };
+		BB8333781BFD7F6E00F4F52A /* GUHomePageFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUHomePageFooter.swift; sourceTree = "<group>"; };
+		BB83337A1BFD7FD800F4F52A /* GUHomePageFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUHomePageFooter.xib; sourceTree = "<group>"; };
+		BB83337C1BFD97E300F4F52A /* GUHomePageHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUHomePageHeader.swift; sourceTree = "<group>"; };
+		BB83337E1BFD97F300F4F52A /* GUHomePageHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUHomePageHeader.xib; sourceTree = "<group>"; };
+		BB8333801BFDA27000F4F52A /* GUHomePageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUHomePageScrollView.swift; sourceTree = "<group>"; };
+		BB8333881BFDA7B500F4F52A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		BB8333891BFDA7B500F4F52A /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		BB83338A1BFDA7B500F4F52A /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		BB83338E1BFDB52300F4F52A /* home_img_testbanner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_img_testbanner@2x.png"; sourceTree = "<group>"; };
+		BB9796071C1538FA0025D0A3 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		BB9796091C153A200025D0A3 /* GUserConProgerssView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserConProgerssView.swift; sourceTree = "<group>"; };
+		BB97960B1C156A590025D0A3 /* GUserProgressHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserProgressHeader.swift; sourceTree = "<group>"; };
+		BB97960D1C156FB10025D0A3 /* GUserProgressHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUserProgressHeader.xib; sourceTree = "<group>"; };
+		BB9938721C059C68009050FD /* GUserLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserLoginController.swift; sourceTree = "<group>"; };
+		BB9938731C059C68009050FD /* GUserLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUserLoginController.xib; sourceTree = "<group>"; };
+		BB9EDDF21C1FAC5C0089E740 /* GErrorCodeDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GErrorCodeDefine.swift; sourceTree = "<group>"; };
+		BB9EDDF41C1FB2A70089E740 /* GNetWorkEngineDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNetWorkEngineDefine.swift; sourceTree = "<group>"; };
+		BB9EDDF61C1FC3480089E740 /* GNetworkEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNetworkEngine.swift; sourceTree = "<group>"; };
 		BBC3C9AB1BEB40750024CCC0 /* GJJUserSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJJUserSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC3C9AE1BEB40750024CCC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBC3C9B01BEB40750024CCC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +187,28 @@
 		BBC3C9CA1BEB40760024CCC0 /* GJJUserSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJJUserSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC3C9CE1BEB40760024CCC0 /* GJJUserSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJJUserSwiftUITests.swift; sourceTree = "<group>"; };
 		BBC3C9D01BEB40760024CCC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC3C9E41BEB57940024CCC0 /* GUserCenterControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserCenterControllerViewController.swift; sourceTree = "<group>"; };
+		BBC3C9E81BEB57B30024CCC0 /* GUserCenterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserCenterCell.swift; sourceTree = "<group>"; };
+		BBC3C9E91BEB57B30024CCC0 /* GUserCenterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUserCenterCell.xib; sourceTree = "<group>"; };
+		BBC3C9EC1BEB5BE30024CCC0 /* GUserCenterHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserCenterHeaderView.swift; sourceTree = "<group>"; };
+		BBC3C9EE1BEB5BF30024CCC0 /* GUserCenterHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUserCenterHeaderView.xib; sourceTree = "<group>"; };
+		BBC3C9F21BEB74120024CCC0 /* UIColor+gjjColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+gjjColor.swift"; sourceTree = "<group>"; };
+		BBC3C9F41BEB7B460024CCC0 /* UIStyleDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStyleDefine.swift; sourceTree = "<group>"; };
+		BBF468171BFEC7D8009A9735 /* GFeedNodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFeedNodeView.swift; sourceTree = "<group>"; };
+		BBF4681B1BFEF2B0009A9735 /* GFeedNodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFeedNodeView.xib; sourceTree = "<group>"; };
+		BBF4681D1BFF09F2009A9735 /* GFeedSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFeedSectionHeader.swift; sourceTree = "<group>"; };
+		BBF4681F1BFF0A0C009A9735 /* GFeedSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFeedSectionHeader.xib; sourceTree = "<group>"; };
+		BBF4689D1BFF1D85009A9735 /* GFeedTypeOneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFeedTypeOneCell.swift; sourceTree = "<group>"; };
+		BBF4689E1BFF1D85009A9735 /* GFeedTypeOneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFeedTypeOneCell.xib; sourceTree = "<group>"; };
+		BBF8B7AB1C07FC14005ADD77 /* Appdelegate+Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Appdelegate+Login.swift"; sourceTree = "<group>"; };
+		BBFBC2121BEB807400AEB7D4 /* GUserFeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserFeedController.swift; sourceTree = "<group>"; };
+		BBFBC2151BEB80CF00AEB7D4 /* GUserBaseTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserBaseTabbarController.swift; sourceTree = "<group>"; };
+		BBFBC2171BEC468300AEB7D4 /* GUserBaseNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserBaseNavController.swift; sourceTree = "<group>"; };
+		BBFE99101BF9B228005D0F26 /* GJJUserSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GJJUserSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		BBFE99111BF9B229005D0F26 /* OCChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCChannel.h; sourceTree = "<group>"; };
+		BBFE99121BF9B229005D0F26 /* OCChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCChannel.m; sourceTree = "<group>"; };
+		BBFE99141BF9BA15005D0F26 /* GUserFeedBackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUserFeedBackController.swift; sourceTree = "<group>"; };
+		E0670671017755C7A6A2DEFF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +216,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D5478E7568A48BBD867588 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +237,230 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F86C1A475DAC1166D230584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C8F7E66900E0846F0EBB230 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AE12CF43A73FA3C22312060 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0670671017755C7A6A2DEFF /* Pods.debug.xcconfig */,
+				4CC4A83D6B72AE1500C0316E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB25576A1BF04B2900F8D978 /* GConPlan */ = {
+			isa = PBXGroup;
+			children = (
+				BB25576D1BF04B4600F8D978 /* GUserConPlanView.swift */,
+				BB1EC89D1BF08761004B83AD /* GConPlanCell.swift */,
+				BB1EC89E1BF08761004B83AD /* GConPlanCell.xib */,
+				BB1EC8A11BF08E6B004B83AD /* GConPlanHeaderView.swift */,
+			);
+			path = GConPlan;
+			sourceTree = "<group>";
+		};
+		BB25576B1BF04B2900F8D978 /* GConProgress */ = {
+			isa = PBXGroup;
+			children = (
+				BB9796071C1538FA0025D0A3 /* CircleProgressView.swift */,
+				BB9796091C153A200025D0A3 /* GUserConProgerssView.swift */,
+				BB7F01721C16B26A005D165D /* GUserProgressCell.swift */,
+				BB7F01731C16B26A005D165D /* GUserProgressCell.xib */,
+				BB97960B1C156A590025D0A3 /* GUserProgressHeader.swift */,
+				BB97960D1C156FB10025D0A3 /* GUserProgressHeader.xib */,
+			);
+			path = GConProgress;
+			sourceTree = "<group>";
+		};
+		BB25576C1BF04B2900F8D978 /* GConSite */ = {
+			isa = PBXGroup;
+			children = (
+				BB2CDA7D1BF1CA17007CFFDC /* GUserConSiteView.swift */,
+				BB2CDA7F1BF1CD27007CFFDC /* GConSiteCell.swift */,
+				BB2CDA801BF1CD27007CFFDC /* GConSiteCell.xib */,
+				BB2CDA831BF1DA43007CFFDC /* GConSiteSectionHeader.swift */,
+				BB2CDA841BF1DA43007CFFDC /* GConSiteSectionHeader.xib */,
+			);
+			path = GConSite;
+			sourceTree = "<group>";
+		};
+		BB4C4F211C0ED3380000E55B /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				BB4C4F221C0ED3810000E55B /* GUserRefreshNorMalHeader.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		BB7D0E6D1C1916AC00769CE7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D0E6E1C1916AC00769CE7 /* MBProgressHUD */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		BB7D0E6E1C1916AC00769CE7 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D0E6F1C1916AC00769CE7 /* MBProgressHUD+Add.h */,
+				BB7D0E701C1916AC00769CE7 /* MBProgressHUD+Add.m */,
+				BB7D0E711C1916AC00769CE7 /* MBProgressHUD.bundle */,
+				BB7D0E721C1916AC00769CE7 /* MBProgressHUD.h */,
+				BB7D0E731C1916AC00769CE7 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		BB7D0E771C19186A00769CE7 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D0E781C19192200769CE7 /* GAlertMessageManager.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		BB811EA61C0BFA26003E2C05 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				BB811EA71C0BFA26003E2C05 /* Controller */,
+				BB811EA81C0BFA26003E2C05 /* Model */,
+				BB811EA91C0BFA26003E2C05 /* View */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		BB811EA71C0BFA26003E2C05 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB811EAC1C0BFA5D003E2C05 /* GUserGuideController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB811EA81C0BFA26003E2C05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB811EA91C0BFA26003E2C05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB83336A1BFD604D00F4F52A /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				BB83336B1BFD604D00F4F52A /* Controller */,
+				BB83336C1BFD604D00F4F52A /* Model */,
+				BB83336D1BFD604D00F4F52A /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		BB83336B1BFD604D00F4F52A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB83336E1BFD607800F4F52A /* GUserHomePageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB83336C1BFD604D00F4F52A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB83336D1BFD604D00F4F52A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB83338E1BFDB52300F4F52A /* home_img_testbanner@2x.png */,
+				BB8333881BFDA7B500F4F52A /* 1.jpg */,
+				BB8333891BFDA7B500F4F52A /* 2.jpg */,
+				BB83338A1BFDA7B500F4F52A /* 3.jpg */,
+				BB8333741BFD676A00F4F52A /* GUHomePageCell.swift */,
+				BB8333751BFD676A00F4F52A /* GUHomePageCell.xib */,
+				BB8333781BFD7F6E00F4F52A /* GUHomePageFooter.swift */,
+				BB83337A1BFD7FD800F4F52A /* GUHomePageFooter.xib */,
+				BB83337C1BFD97E300F4F52A /* GUHomePageHeader.swift */,
+				BB83337E1BFD97F300F4F52A /* GUHomePageHeader.xib */,
+				BB8333801BFDA27000F4F52A /* GUHomePageScrollView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB8333701BFD636700F4F52A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				BB8333711BFD636700F4F52A /* UIView+BNLayout.h */,
+				BB8333721BFD636700F4F52A /* UIView+BNLayout.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		BB8333901BFDB7B200F4F52A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BB8333911BFDB7B200F4F52A /* Controller */,
+				BB8333921BFDB7B200F4F52A /* Model */,
+				BB8333931BFDB7B200F4F52A /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BB8333911BFDB7B200F4F52A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB9938721C059C68009050FD /* GUserLoginController.swift */,
+				BB9938731C059C68009050FD /* GUserLoginController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB8333921BFDB7B200F4F52A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB8333931BFDB7B200F4F52A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB9EDDF01C1FAC130089E740 /* Utillity */ = {
+			isa = PBXGroup;
+			children = (
+				BB9EDDF11C1FAC130089E740 /* NetWorkEngine */,
+			);
+			path = Utillity;
+			sourceTree = "<group>";
+		};
+		BB9EDDF11C1FAC130089E740 /* NetWorkEngine */ = {
+			isa = PBXGroup;
+			children = (
+				BB9EDDF21C1FAC5C0089E740 /* GErrorCodeDefine.swift */,
+				BB9EDDF41C1FB2A70089E740 /* GNetWorkEngineDefine.swift */,
+				BB9EDDF61C1FC3480089E740 /* GNetworkEngine.swift */,
+			);
+			path = NetWorkEngine;
+			sourceTree = "<group>";
+		};
 		BBC3C9A21BEB40750024CCC0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +468,8 @@
 				BBC3C9C21BEB40760024CCC0 /* GJJUserSwiftTests */,
 				BBC3C9CD1BEB40760024CCC0 /* GJJUserSwiftUITests */,
 				BBC3C9AC1BEB40750024CCC0 /* Products */,
+				3AE12CF43A73FA3C22312060 /* Pods */,
+				1F86C1A475DAC1166D230584 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +488,7 @@
 			children = (
 				BBC3C9AE1BEB40750024CCC0 /* AppDelegate.swift */,
 				BBC3C9B01BEB40750024CCC0 /* ViewController.swift */,
+				BBC3C9DC1BEB40DD0024CCC0 /* Classes */,
 				BBC3C9B21BEB40750024CCC0 /* Main.storyboard */,
 				BBC3C9B51BEB40750024CCC0 /* Assets.xcassets */,
 				BBC3C9B71BEB40750024CCC0 /* LaunchScreen.storyboard */,
@@ -125,6 +515,185 @@
 			path = GJJUserSwiftUITests;
 			sourceTree = "<group>";
 		};
+		BBC3C9DC1BEB40DD0024CCC0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB9EDDF01C1FAC130089E740 /* Utillity */,
+				BB7D0E771C19186A00769CE7 /* Logic */,
+				BB7D0E6D1C1916AC00769CE7 /* Tool */,
+				BBC3C9DD1BEB40DD0024CCC0 /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BBC3C9DD1BEB40DD0024CCC0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BB811EA61C0BFA26003E2C05 /* Guide */,
+				BB8333901BFDB7B200F4F52A /* Login */,
+				BB83336A1BFD604D00F4F52A /* HomePage */,
+				BBFBC2141BEB80B200AEB7D4 /* Base */,
+				BBFBC2061BEB801500AEB7D4 /* Construct */,
+				BBFBC20A1BEB801500AEB7D4 /* Feed */,
+				BBC3C9F01BEB73EF0024CCC0 /* Common */,
+				BBC3C9DE1BEB42870024CCC0 /* UserCenter */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BBC3C9DE1BEB42870024CCC0 /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				BBC3C9E31BEB57940024CCC0 /* Controller */,
+				BBC3C9E51BEB57940024CCC0 /* Model */,
+				BBC3C9E61BEB57940024CCC0 /* View */,
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		BBC3C9E31BEB57940024CCC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BBC3C9E41BEB57940024CCC0 /* GUserCenterControllerViewController.swift */,
+				BB7D29CC1BEC79B2009EC238 /* GUserSystemSettingController.swift */,
+				BB7D29D21BEC8997009EC238 /* GUserConstructionFeedbackController.swift */,
+				BB7D29D81BECA467009EC238 /* GUserSupportController.swift */,
+				BBFE99141BF9BA15005D0F26 /* GUserFeedBackController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BBC3C9E51BEB57940024CCC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBC3C9E61BEB57940024CCC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBC3C9E81BEB57B30024CCC0 /* GUserCenterCell.swift */,
+				BBC3C9E91BEB57B30024CCC0 /* GUserCenterCell.xib */,
+				BBC3C9EC1BEB5BE30024CCC0 /* GUserCenterHeaderView.swift */,
+				BBC3C9EE1BEB5BF30024CCC0 /* GUserCenterHeaderView.xib */,
+				BB7D29CE1BEC810B009EC238 /* GUserSystemLogOutCell.swift */,
+				BB7D29CF1BEC810B009EC238 /* GUserSystemLogOutCell.xib */,
+				BB7D29D41BEC89BB009EC238 /* GUserConstructFeedBackCell.swift */,
+				BB7D29D51BEC89BB009EC238 /* GUserConstructFeedBackCell.xib */,
+				BB7D29DA1BECA611009EC238 /* GUserSupportView.swift */,
+				BB7D29DC1BECA61F009EC238 /* GUserSupportView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBC3C9F01BEB73EF0024CCC0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BB8333701BFD636700F4F52A /* UIView */,
+				BBC3C9F11BEB73EF0024CCC0 /* 扩展 */,
+				BBC3C9F41BEB7B460024CCC0 /* UIStyleDefine.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BBC3C9F11BEB73EF0024CCC0 /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				BBC3C9F21BEB74120024CCC0 /* UIColor+gjjColor.swift */,
+				BB4C4F1F1C0D97B90000E55B /* UIImage+gjjImage.swift */,
+				BBF8B7AB1C07FC14005ADD77 /* Appdelegate+Login.swift */,
+			);
+			path = "扩展";
+			sourceTree = "<group>";
+		};
+		BBFBC2061BEB801500AEB7D4 /* Construct */ = {
+			isa = PBXGroup;
+			children = (
+				BBFBC2071BEB801500AEB7D4 /* Controller */,
+				BBFBC2081BEB801500AEB7D4 /* Model */,
+				BBFBC2091BEB801500AEB7D4 /* View */,
+			);
+			path = Construct;
+			sourceTree = "<group>";
+		};
+		BBFBC2071BEB801500AEB7D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB25576F1BF06E6500F8D978 /* GUserConstructController.swift */,
+				BB2557701BF06E6500F8D978 /* GUserConstructController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BBFBC2081BEB801500AEB7D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBFBC2091BEB801500AEB7D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB25576A1BF04B2900F8D978 /* GConPlan */,
+				BB25576B1BF04B2900F8D978 /* GConProgress */,
+				BB25576C1BF04B2900F8D978 /* GConSite */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBFBC20A1BEB801500AEB7D4 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				BBFBC20B1BEB801500AEB7D4 /* Controller */,
+				BBFBC20C1BEB801500AEB7D4 /* Model */,
+				BBFBC20D1BEB801500AEB7D4 /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		BBFBC20B1BEB801500AEB7D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BBFBC2121BEB807400AEB7D4 /* GUserFeedController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BBFBC20C1BEB801500AEB7D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBFBC20D1BEB801500AEB7D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBF468171BFEC7D8009A9735 /* GFeedNodeView.swift */,
+				BBF4681B1BFEF2B0009A9735 /* GFeedNodeView.xib */,
+				BBF4681D1BFF09F2009A9735 /* GFeedSectionHeader.swift */,
+				BBF4681F1BFF0A0C009A9735 /* GFeedSectionHeader.xib */,
+				BBF4689D1BFF1D85009A9735 /* GFeedTypeOneCell.swift */,
+				BBF4689E1BFF1D85009A9735 /* GFeedTypeOneCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBFBC2141BEB80B200AEB7D4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BB4C4F211C0ED3380000E55B /* Refresh */,
+				BBFBC2151BEB80CF00AEB7D4 /* GUserBaseTabbarController.swift */,
+				BBFBC2171BEC468300AEB7D4 /* GUserBaseNavController.swift */,
+				BBFE99111BF9B229005D0F26 /* OCChannel.h */,
+				BBFE99121BF9B229005D0F26 /* OCChannel.m */,
+				BBFE99101BF9B228005D0F26 /* GJJUserSwift-Bridging-Header.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +701,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBC3C9D31BEB40760024CCC0 /* Build configuration list for PBXNativeTarget "GJJUserSwift" */;
 			buildPhases = (
+				EE12531C4BC5BDACE3468E7C /* Check Pods Manifest.lock */,
 				BBC3C9A71BEB40750024CCC0 /* Sources */,
 				BBC3C9A81BEB40750024CCC0 /* Frameworks */,
 				BBC3C9A91BEB40750024CCC0 /* Resources */,
+				CDB0A65170228E57A0772857 /* Embed Pods Frameworks */,
+				BBE29E971C0C58D80016D814 /* Embed Frameworks */,
+				08910670FFA518F14A70D53B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,8 +803,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBC3C9B91BEB40750024CCC0 /* LaunchScreen.storyboard in Resources */,
+				BBC3C9EF1BEB5BF30024CCC0 /* GUserCenterHeaderView.xib in Resources */,
+				BB83337B1BFD7FD800F4F52A /* GUHomePageFooter.xib in Resources */,
+				BB7D29D71BEC89BB009EC238 /* GUserConstructFeedBackCell.xib in Resources */,
+				BB97960E1C156FB10025D0A3 /* GUserProgressHeader.xib in Resources */,
+				BB8333771BFD676A00F4F52A /* GUHomePageCell.xib in Resources */,
+				BB7D29DD1BECA61F009EC238 /* GUserSupportView.xib in Resources */,
+				BB83337F1BFD97F300F4F52A /* GUHomePageHeader.xib in Resources */,
 				BBC3C9B61BEB40750024CCC0 /* Assets.xcassets in Resources */,
 				BBC3C9B41BEB40750024CCC0 /* Main.storyboard in Resources */,
+				BB83338C1BFDA7B500F4F52A /* 2.jpg in Resources */,
+				BBF4681C1BFEF2B0009A9735 /* GFeedNodeView.xib in Resources */,
+				BB7F01751C16B26A005D165D /* GUserProgressCell.xib in Resources */,
+				BB7D0E751C1916AC00769CE7 /* MBProgressHUD.bundle in Resources */,
+				BBC3C9EB1BEB57B30024CCC0 /* GUserCenterCell.xib in Resources */,
+				BB83338D1BFDA7B500F4F52A /* 3.jpg in Resources */,
+				BB83338B1BFDA7B500F4F52A /* 1.jpg in Resources */,
+				BB83338F1BFDB52300F4F52A /* home_img_testbanner@2x.png in Resources */,
+				BB1EC8A01BF08761004B83AD /* GConPlanCell.xib in Resources */,
+				BB9938751C059C68009050FD /* GUserLoginController.xib in Resources */,
+				BB2CDA861BF1DA43007CFFDC /* GConSiteSectionHeader.xib in Resources */,
+				BB7D29D11BEC810B009EC238 /* GUserSystemLogOutCell.xib in Resources */,
+				BB2557721BF06E6500F8D978 /* GUserConstructController.xib in Resources */,
+				BB2CDA821BF1CD27007CFFDC /* GConSiteCell.xib in Resources */,
+				BBF468A01BFF1D85009A9735 /* GFeedTypeOneCell.xib in Resources */,
+				BBF468201BFF0A0C009A9735 /* GFeedSectionHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +847,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08910670FFA518F14A70D53B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDB0A65170228E57A0772857 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE12531C4BC5BDACE3468E7C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBC3C9A71BEB40750024CCC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB83336F1BFD607800F4F52A /* GUserHomePageController.swift in Sources */,
+				BB8333761BFD676A00F4F52A /* GUHomePageCell.swift in Sources */,
+				BBFE99151BF9BA15005D0F26 /* GUserFeedBackController.swift in Sources */,
+				BB9EDDF31C1FAC5D0089E740 /* GErrorCodeDefine.swift in Sources */,
 				BBC3C9B11BEB40750024CCC0 /* ViewController.swift in Sources */,
+				BB7F01741C16B26A005D165D /* GUserProgressCell.swift in Sources */,
+				BB8333791BFD7F6E00F4F52A /* GUHomePageFooter.swift in Sources */,
+				BB7D29D01BEC810B009EC238 /* GUserSystemLogOutCell.swift in Sources */,
+				BB97960C1C156A590025D0A3 /* GUserProgressHeader.swift in Sources */,
+				BBF8B7AC1C07FC14005ADD77 /* Appdelegate+Login.swift in Sources */,
+				BBC3C9F31BEB74120024CCC0 /* UIColor+gjjColor.swift in Sources */,
+				BB97960A1C153A200025D0A3 /* GUserConProgerssView.swift in Sources */,
+				BB8333731BFD636700F4F52A /* UIView+BNLayout.m in Sources */,
+				BB25576E1BF04B4600F8D978 /* GUserConPlanView.swift in Sources */,
+				BB2CDA7E1BF1CA17007CFFDC /* GUserConSiteView.swift in Sources */,
+				BBF4689F1BFF1D85009A9735 /* GFeedTypeOneCell.swift in Sources */,
+				BBF468181BFEC7D8009A9735 /* GFeedNodeView.swift in Sources */,
+				BB7D29CD1BEC79B2009EC238 /* GUserSystemSettingController.swift in Sources */,
+				BB811EAD1C0BFA5D003E2C05 /* GUserGuideController.swift in Sources */,
+				BB2CDA851BF1DA43007CFFDC /* GConSiteSectionHeader.swift in Sources */,
+				BBFBC2131BEB807400AEB7D4 /* GUserFeedController.swift in Sources */,
+				BB7D29DB1BECA611009EC238 /* GUserSupportView.swift in Sources */,
+				BB83337D1BFD97E300F4F52A /* GUHomePageHeader.swift in Sources */,
+				BB7D0E761C1916AC00769CE7 /* MBProgressHUD.m in Sources */,
+				BBFBC2161BEB80CF00AEB7D4 /* GUserBaseTabbarController.swift in Sources */,
+				BB7D29D31BEC8997009EC238 /* GUserConstructionFeedbackController.swift in Sources */,
+				BB1EC8A21BF08E6B004B83AD /* GConPlanHeaderView.swift in Sources */,
+				BB7D0E791C19192200769CE7 /* GAlertMessageManager.swift in Sources */,
 				BBC3C9AF1BEB40750024CCC0 /* AppDelegate.swift in Sources */,
+				BBFBC2181BEC468300AEB7D4 /* GUserBaseNavController.swift in Sources */,
+				BB7D29D61BEC89BB009EC238 /* GUserConstructFeedBackCell.swift in Sources */,
+				BB4C4F201C0D97B90000E55B /* UIImage+gjjImage.swift in Sources */,
+				BB9938741C059C68009050FD /* GUserLoginController.swift in Sources */,
+				BB2557711BF06E6500F8D978 /* GUserConstructController.swift in Sources */,
+				BBC3C9E71BEB57940024CCC0 /* GUserCenterControllerViewController.swift in Sources */,
+				BBFE99131BF9B229005D0F26 /* OCChannel.m in Sources */,
+				BB9EDDF71C1FC3480089E740 /* GNetworkEngine.swift in Sources */,
+				BBC3C9F51BEB7B460024CCC0 /* UIStyleDefine.swift in Sources */,
+				BB1EC89F1BF08761004B83AD /* GConPlanCell.swift in Sources */,
+				BB8333811BFDA27000F4F52A /* GUHomePageScrollView.swift in Sources */,
+				BB9EDDF51C1FB2A70089E740 /* GNetWorkEngineDefine.swift in Sources */,
+				BBC3C9ED1BEB5BE30024CCC0 /* GUserCenterHeaderView.swift in Sources */,
+				BB2CDA811BF1CD27007CFFDC /* GConSiteCell.swift in Sources */,
+				BB7D29D91BECA467009EC238 /* GUserSupportController.swift in Sources */,
+				BB7D0E741C1916AC00769CE7 /* MBProgressHUD+Add.m in Sources */,
+				BBC3C9EA1BEB57B30024CCC0 /* GUserCenterCell.swift in Sources */,
+				BB9796081C1538FA0025D0A3 /* CircleProgressView.swift in Sources */,
+				BB4C4F231C0ED3810000E55B /* GUserRefreshNorMalHeader.swift in Sources */,
+				BBF4681E1BFF09F2009A9735 /* GFeedSectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +1088,32 @@
 		};
 		BBC3C9D41BEB40760024CCC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0670671017755C7A6A2DEFF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GJJUserSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ls.GJJUserSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/lishten/Desktop/GJJUserSwift/GJJUserSwift/Classes/UI/Base/GJJUserSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		BBC3C9D51BEB40760024CCC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC4A83D6B72AE1500C0316E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GJJUserSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ls.GJJUserSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/lishten/Desktop/GJJUserSwift/GJJUserSwift/Classes/UI/Base/GJJUserSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +1184,7 @@
 				BBC3C9D51BEB40760024CCC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBC3C9D61BEB40760024CCC0 /* Build configuration list for PBXNativeTarget "GJJUserSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +1193,7 @@
 				BBC3C9D81BEB40760024CCC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBC3C9D91BEB40760024CCC0 /* Build configuration list for PBXNativeTarget "GJJUserSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +1202,7 @@
 				BBC3C9DB1BEB40760024CCC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

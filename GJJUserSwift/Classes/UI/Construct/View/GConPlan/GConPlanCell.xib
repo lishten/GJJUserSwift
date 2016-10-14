@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="GConPlanCell" customModule="GJJUserSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FRR-kb-cVC">
+                        <rect key="frame" x="31" y="0.0" width="279" height="43"/>
+                        <animations/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plan_img_circle2" translatesAutoresizingMaskIntoConstraints="NO" id="76g-71-s5A">
+                        <rect key="frame" x="48" y="15" width="13" height="13"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="13" id="5cc-Bz-KYT"/>
+                            <constraint firstAttribute="height" constant="13" id="UFv-Tm-8CN"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plan_img_smallgo" translatesAutoresizingMaskIntoConstraints="NO" id="3Yk-TO-acl">
+                        <rect key="frame" x="283" y="16" width="12" height="12"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="n60-LZ-G14"/>
+                            <constraint firstAttribute="width" constant="12" id="pV7-vh-Zwk"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qs0-nA-RbF">
+                        <rect key="frame" x="15" y="0.0" width="1" height="43"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="xbx-o7-Jyz"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地面瓷砖铺贴" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cw2-TF-9vw">
+                        <rect key="frame" x="68" y="0.0" width="110" height="43"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="Nsw-qT-Qny"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="施工第3天" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IuX-6i-Kjj">
+                        <rect key="frame" x="178" y="0.0" width="100" height="43"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="uA1-il-u6I"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="76g-71-s5A" firstAttribute="leading" secondItem="qs0-nA-RbF" secondAttribute="trailing" constant="30" id="1iQ-zC-Goj"/>
+                    <constraint firstAttribute="bottom" secondItem="cw2-TF-9vw" secondAttribute="bottom" id="2vb-ET-Zq4"/>
+                    <constraint firstItem="3Yk-TO-acl" firstAttribute="leading" secondItem="IuX-6i-Kjj" secondAttribute="trailing" constant="5" id="5B6-C0-YYf"/>
+                    <constraint firstItem="76g-71-s5A" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="40" id="5Nc-hD-KYc"/>
+                    <constraint firstItem="3Yk-TO-acl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="5di-X4-9ns"/>
+                    <constraint firstItem="FRR-kb-cVC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="AgS-1E-uqQ"/>
+                    <constraint firstAttribute="bottom" secondItem="FRR-kb-cVC" secondAttribute="bottom" id="KNd-Ek-iN2"/>
+                    <constraint firstAttribute="bottom" secondItem="IuX-6i-Kjj" secondAttribute="bottom" id="SzM-XA-oQz"/>
+                    <constraint firstItem="76g-71-s5A" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="VOn-84-Iv4"/>
+                    <constraint firstItem="cw2-TF-9vw" firstAttribute="leading" secondItem="76g-71-s5A" secondAttribute="trailing" constant="7" id="ZVC-e2-ioY"/>
+                    <constraint firstItem="cw2-TF-9vw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="aew-aU-ZBU"/>
+                    <constraint firstItem="qs0-nA-RbF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="atD-32-y04"/>
+                    <constraint firstAttribute="bottom" secondItem="qs0-nA-RbF" secondAttribute="bottom" id="b2V-sA-Fvf"/>
+                    <constraint firstItem="FRR-kb-cVC" firstAttribute="leading" secondItem="qs0-nA-RbF" secondAttribute="trailing" constant="15" id="u2Y-kr-d0G"/>
+                    <constraint firstItem="qs0-nA-RbF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="uPD-Op-37Z"/>
+                    <constraint firstItem="IuX-6i-Kjj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xn8-wg-BNb"/>
+                    <constraint firstAttribute="trailing" secondItem="3Yk-TO-acl" secondAttribute="trailing" constant="25" id="xum-rs-qVg"/>
+                    <constraint firstAttribute="trailing" secondItem="FRR-kb-cVC" secondAttribute="trailing" constant="10" id="zNB-qq-11J"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="1iQ-zC-Goj"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="backView" destination="FRR-kb-cVC" id="X1G-49-a17"/>
+                <outlet property="lineView" destination="qs0-nA-RbF" id="Fa5-Ye-ZlV"/>
+                <outlet property="projectName" destination="cw2-TF-9vw" id="Pu1-TO-Rk2"/>
+                <outlet property="projectTime" destination="IuX-6i-Kjj" id="5pd-X0-XWd"/>
+                <outlet property="signView" destination="76g-71-s5A" id="I8G-cI-sVX"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="plan_img_circle2" width="13" height="13"/>
+        <image name="plan_img_smallgo" width="12" height="12"/>
+    </resources>
+</document>

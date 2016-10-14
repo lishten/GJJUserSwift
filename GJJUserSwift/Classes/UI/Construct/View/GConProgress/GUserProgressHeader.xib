@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GUserProgressHeader" customModule="GJJUserSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="progress_img_circle_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="YYk-uz-FVi">
+                    <rect key="frame" x="60" y="0.0" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Q96-w8-eUd"/>
+                        <constraint firstAttribute="height" constant="200" id="snm-az-yBd"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D4h-eY-hOn" customClass="CircleProgressView" customModule="GJJUserSwift" customModuleProvider="target">
+                    <rect key="frame" x="70" y="10" width="180" height="180"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="progress_img_circle_top" translatesAutoresizingMaskIntoConstraints="NO" id="W1x-Fo-Zod">
+                            <rect key="frame" x="-10" y="-10" width="200" height="200"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iew-2K-UXb">
+                            <rect key="frame" x="50" y="51" width="80" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="Qvo-5J-2IM"/>
+                                <constraint firstAttribute="height" constant="46" id="x3a-6i-xj5"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="装修总进度" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1g-Pw-sML">
+                            <rect key="frame" x="37" y="105" width="107" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="107" id="ZhC-mP-faV"/>
+                                <constraint firstAttribute="height" constant="21" id="hU2-o6-tt5"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="O1g-Pw-sML" firstAttribute="top" secondItem="Iew-2K-UXb" secondAttribute="bottom" constant="8" id="2Sh-kd-VAq"/>
+                        <constraint firstAttribute="height" constant="180" id="5Bb-nH-XLg"/>
+                        <constraint firstAttribute="bottom" secondItem="O1g-Pw-sML" secondAttribute="bottom" constant="54" id="NYB-qQ-zV9"/>
+                        <constraint firstItem="Iew-2K-UXb" firstAttribute="top" secondItem="D4h-eY-hOn" secondAttribute="top" constant="51" id="W2K-S9-DP8"/>
+                        <constraint firstAttribute="width" constant="180" id="bt0-gW-bT5"/>
+                        <constraint firstItem="O1g-Pw-sML" firstAttribute="centerX" secondItem="D4h-eY-hOn" secondAttribute="centerX" id="hyx-X9-E0T"/>
+                        <constraint firstItem="Iew-2K-UXb" firstAttribute="centerX" secondItem="D4h-eY-hOn" secondAttribute="centerX" id="rvk-Og-g55"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="YYk-uz-FVi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="CNG-Gy-a4y"/>
+                <constraint firstItem="D4h-eY-hOn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Phy-v2-gj4"/>
+                <constraint firstItem="D4h-eY-hOn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="cyL-wC-9C7"/>
+                <constraint firstItem="YYk-uz-FVi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jho-5n-yMQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="allTitle" destination="O1g-Pw-sML" id="ZVX-Bw-gz3"/>
+                <outlet property="circleProgressView" destination="D4h-eY-hOn" id="h38-lb-5ht"/>
+                <outlet property="currentProgress" destination="Iew-2K-UXb" id="9UI-sM-bDF"/>
+            </connections>
+            <point key="canvasLocation" x="281" y="-6"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="progress_img_circle_bottom" width="200" height="200"/>
+        <image name="progress_img_circle_top" width="200" height="200"/>
+    </resources>
+</document>
